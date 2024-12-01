@@ -31,3 +31,17 @@
     outline: 2px solid transparent;
     transition: 0.5s;
 }
+
+
+.left-container button {
+    padding: 14px 10px;
+    margin-top: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    background-color:#ff3333;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
