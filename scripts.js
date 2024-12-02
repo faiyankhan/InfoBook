@@ -8,3 +8,11 @@ function loadStudents() {
     };
 };
 loadStudents();
+
+const studentInput = document.getElementById("student-name");
+
+function addStudent() {
+    students.push(studentInput.value);
+    studentInput.value = "";
+    loadStudents();
+}
