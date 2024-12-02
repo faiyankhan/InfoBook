@@ -10,19 +10,21 @@
 
 <body>
     <div class="container">
-        <div class="left-container">
-            <h1>InfoCards</h1>
-            <input type="text" id="studentName" placeholder="Full Name" required>
-            <input type="text" id="branch" placeholder="Branch" required>
-            <input type="number" id="rollNum" placeholder="Roll Number" required>
-            <input type="text" id="grade" placeholder="Grade" required>
-            <input type="number" id="cgpa" placeholder="CGPA" required>
-            <button type="button">Add Student</button>
-            <button type="button">Remove Student</button>
+        <!-- Card 1: Input and Buttons -->
+        <div class="card" id="student-container">
+            <h2>StudentsBook</h2>
+            <input type="text" placeholder="Enter Student Name" class="input-box" id="student-name" />
+
+            <div class="btn-container">
+                <button class="btn-1" onclick="addStudent()">Add Student</button>
+                <button class="btn-2" onclick="removeStudent()">Remove Student</button>
+            </div>
         </div>
 
-        <div class="right-container">
-            <h3>Student List</h3>
+         <!-- Card 2: Student List Display -->
+         <div class="card">
+            <h2>Student List</h2>
+            <div id="students-list"></div>
         </div>
 
     </div>
