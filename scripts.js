@@ -16,3 +16,10 @@ function addStudent() {
     studentInput.value = "";
     loadStudents();
 }
+
+function removeStudent(){
+    const studentIndex = students.indexOf(studentInput.value);
+    studentInput.value = "";
+    students.splice(studentIndex, 1);
+    loadStudents();
+}
