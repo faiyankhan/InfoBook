@@ -12,4 +12,4 @@ The Info Book project is designed to efficiently store, organize, and display es
 - CSS: Styling the layout and design for a clean, modern look.
 - JavaScript: Provides interactivity, such as adding, editing, and deleting entries.
 <br>
-(![image]("C:\Users\faiya\OneDrive\Pictures\Screenshots\Screenshot (506).png")
+
